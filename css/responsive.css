@@ -1,0 +1,135 @@
+@media screen and (max-width:1199px)
+{
+    p{
+        font-size: 16px;
+    }
+    .padding {
+        padding: 50px 0;
+    }
+    .right_next_gen h2 {
+        font-size: 36px;
+    }
+    .nav-item a.nav-link {
+        font-size: 16px;
+    }
+    .left_join h3 {
+        font-size: 20px;
+    }
+    .bg_img {
+        height: 45px;
+        width: 45px;
+        left: -20px;
+    }
+    .left_journey h2 {
+        font-size: 40px;
+    }
+    .left_expertise h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .social_icon ul {
+        gap: 20px;
+    }
+}
+@media screen and (max-width:991px)
+{
+    .banner {
+        height: 650px;
+    }
+    .left_join {
+        margin-bottom: 30px;
+    }
+    .left_join h3 {
+        margin-bottom: 10px;
+    }
+    .left_journey {
+        margin-bottom: 60px;
+    }
+    .left_inner_exper {
+        margin-bottom: 30px;
+    }
+    .left_partership {
+        margin-bottom: 30px;
+    }
+    .news_letter {
+        margin-bottom: 60px;
+    }
+    .news_letter_inner {
+        background:unset;
+        justify-content: center;
+    }
+    .news_letter_inner input {
+        width: 65%;
+    }
+    .subscribe {
+        width: 25%;
+    }
+    footer {
+        padding-top: 0;
+    }
+    .phone_call_wrapper {
+        height: 150px;
+    }
+    .left_copy_right {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width:767px)
+{
+    .inner_text_banner h1 {
+        font-size: 40px;
+    }
+    .banner {
+        height: 450px;
+    }
+}
+@media screen and (max-width:575px){
+    a.navbar-brand img {
+        width: 95px;
+    }
+    .inner_text_banner h1 {
+        font-size: 35px;
+    }
+    .right_next_gen {
+        text-align: center;
+    }
+    .right_next_gen h2 {
+        font-size: 28px;
+    }
+    .left_join {
+        text-align: center;
+    }
+    .right_join {
+        text-align: center;
+    }
+    .Ourexperience {
+        margin: 0 20px;
+    }
+    .left_journey h2 {
+        font-size: 28px;
+    }
+    .left_journey {
+        text-align: center;
+    }
+    .left_expertise h2 {
+        font-size: 28px;
+    }
+    .left_expertise {
+        padding: 20px;
+        text-align: center;
+    }
+    .right_inner_exper {
+        text-align: center;
+    }
+    .left_partership {
+        text-align: center;
+    }
+    .right_partership {
+        text-align: center;
+    }
+    footer {
+        padding: 0 10px!important;
+    }
+}
