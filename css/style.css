@@ -570,3 +570,96 @@ header {
 .indus_upper_row h2 {
     font-size: 50px;
 }
+.careers{
+    background-image: url(../images/careerbg.png);
+    height: 500px;
+}
+.row_open_list p {
+    margin-bottom: 0;
+}
+
+.open_list {
+    background: #EDFAFF;
+}
+.open_col1 p {
+    font-size: 20px;
+    color: #1E293B;
+    font-weight: 600;
+}
+.open_col2 span {
+    padding: 5px 10px;
+    color: #21B5F0;
+    background: #edfaff;
+    border-radius: 20px;
+}
+.open_col2{
+    text-align: center;
+}
+.open_col2 p img {
+    margin-right: 8px;
+}
+.open_col3 span img {
+    margin-right: 8px;
+}
+.open_col2 p  {
+    color:#94A3B8;
+    margin-top:5px;
+}
+.open_col3 span  {
+    color:#94A3B8;
+ 
+}
+.open_col3 p {
+    color: #1e293b;
+    font-weight: 600;
+    margin-top:5px;
+}
+.open_col4 a {
+    background: #3bbff1;
+    padding: 8px 20px;
+    text-decoration: unset;
+    color: #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 6px;
+}
+.row_open_list {
+    padding: 30px 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+.dropdownSection h2 {
+    color: #ADB5BD;
+    font-size: 20px;
+    font-weight: 400;
+    background: #E9E9EA;
+    display: inline;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.textDropdown {
+    margin-top: 30px;
+}
+.textSection {
+    margin-top: 40px;
+}
+.wrap_data_content h4 {
+    font-size: 20px;
+}
+.wrap_data_content p {
+    color: #000;
+}
+.wrap_data_content {
+    margin-bottom: 10px;
+}
+.textSection {
+    display: none;
+}
+.dropdownSection h2 img {
+    width: 12px;
+    margin-left: 5px;
+}
