@@ -403,6 +403,11 @@ select.form-select {
     color: #000;
     text-decoration: none;
     font-size: 17px;
+    transition: all 0.4s;
+}
+.columnb_2 ul li a:hover {
+    color: #21b5f0;
+    margin-left: 3px;
 }
 .columnb_2 ul li a img {
     margin-right: 10px;
@@ -425,6 +430,15 @@ select.form-select {
     height: 40px;
     border-radius: 5px;
     border: 1px solid #8080807d;
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.4s;
+}
+.social_icon ul li a:hover {
+    background: #21b5f0;
+    color: #fff;
+    border: transparent;
 }
 footer {
     padding-top: 120px!important;
@@ -445,10 +459,19 @@ ul.copy_right_ul {
 ul.copy_right_ul li a {
     color: #F5F5F5;
     text-decoration: unset;
+    transition: all 0.4s;
+    
+}
+ul.copy_right_ul li a:hover{
+    color: #21b5f0;
 }
 .left_copy_right p {
     color: #F5F5F5;
     margin-bottom: 0;
+    transition: all 0.4s;
+}
+.left_copy_right p:hover {
+    color: #21b5f0;
 }
 .copy_right {
     background: #000;
@@ -519,6 +542,7 @@ header {
     border-radius: 10px;
     border: 2px solid #fff;
     background: linear-gradient(129deg, rgba(47, 194, 238, 1) 0%, rgb(4 154 243 / 69%) 90%);
+    transition: all 0.4s;
 }
 .num_div p {
     font-size: 24px;
@@ -577,9 +601,12 @@ header {
     padding: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: relative;
+    transition: all 0.4s;
 }
-/* .indus_center_image img {
-} */
+.indus_card:hover {
+    background-color: #36c5f021;
+}
+
 .indus_card p {
     font-size: 14px;
     margin-bottom: 0;
@@ -653,6 +680,8 @@ header {
     font-weight: 500;
     display: inline-block;
     margin-left: 6px;
+    transition: all 0.4s;
+    border: 1px solid transparent;
 }
 .row_open_list {
     padding: 30px 20px;
@@ -703,6 +732,13 @@ header {
 }
 .contact_banner .submit_btn a {
     border-radius: 5px;
+    transition: all 0.4s;
+    border: 1px solid transparent;
+}
+.contact_banner .submit_btn a:hover {
+    background: #fff;
+    color: #21b5f2;
+    border: 1px solid #21b5f2;
 }
 .con_box {
     display: flex;
@@ -743,4 +779,9 @@ header {
 select:focus{
     border-color: #fff!important;
     box-shadow: unset!important;  
+}
+.open_col4 a:hover {
+    background: #fff;
+    color: #21B5F0;
+    border: 1px solid #21b5f0;
 }
