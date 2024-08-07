@@ -663,3 +663,45 @@ header {
     width: 12px;
     margin-left: 5px;
 }
+.banner.about_us.contact_us{
+    background-image: url(../images/contact_bg.jpg);
+    height: 500px;
+}
+.contact_banner h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.contact_banner .submit_btn a {
+    border-radius: 5px;
+}
+.con_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #F4F7FB;
+    height: 260px;
+    border-radius: 5px;
+}
+.con_box p {
+    margin-bottom: 0;
+}
+.con_box img {
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.con_box h4 {
+    color: #21B5F0;
+    font-size: 20px;
+}
+.con_box p a {
+    color: #737373;
+    text-decoration: none;
+}
+.con_box p  {
+    color: #737373;
+}
