@@ -51,6 +51,7 @@ a.button_common {
     text-decoration: none;
     display: inline-block;
     margin-top: 10px;
+    transition: all 0.4s;
 }
 
 .inner_text_banner a img {
@@ -87,8 +88,14 @@ a.button_common {
     background-color: #fff;
     color: #18acf1;
     font-weight: 700;
+    border: 2px solid transparent;
+    transition: all 0.4s;
 }
-
+.left_join a:hover {
+    background-color: #2bbeef!important;
+    color: #fff!important;
+    border: 2px solid #fff!important;
+}
 .left_join a img {
     margin-left: 5px;
 }
@@ -107,6 +114,12 @@ a.button_common {
     display: flex;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: relative;
+    margin: 0px 15px;
+    transition: all 0.4s;
+}
+
+.experience_card:hover{
+    background-color: #24b8ef1a;
 }
 
 .experience_card p {
@@ -305,8 +318,12 @@ select.form-select {
     text-decoration: unset;
     text-transform: capitalize;
     border: 1px solid #fff;
+    transition: all 0.4s;
 }
-
+.submit_btn a:hover {
+    background: #fff;
+    color: #42bef3;
+}
 .left_contact {
     padding: 30px;
 }
@@ -332,7 +349,13 @@ select.form-select {
     text-decoration: unset;
     height: 50px;
     border-radius: 5px;
-    font-weight: 500;
+    transition: all 0.5s;
+    border: 1px solid transparent;
+}
+.subscribe a:hover {
+    background: #fff;
+    color: #52b9f7;
+    border: 1px solid #52b9f7;
 }
 .uper_row_news_letter {
     background: linear-gradient(129deg, rgba(47, 194, 238, 1) 0%, rgb(4 154 243 / 69%) 90%);
@@ -447,7 +470,7 @@ a.button_common:hover {
     color: #2fc2ee;
 }
 a.button_common:hover img {
-    filter: invert(1);
+    filter: brightness(0.2);
 }
 header {
     position: sticky;
@@ -712,4 +735,12 @@ header {
 }
 .nav-item {
     margin-left: 15px;
+}
+.form-control:focus {
+    border-color: #fff!important;
+    box-shadow: unset!important;
+}
+select:focus{
+    border-color: #fff!important;
+    box-shadow: unset!important;  
 }
