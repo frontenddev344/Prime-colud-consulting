@@ -777,7 +777,7 @@ header {
     box-shadow: unset!important;
 }
 select:focus{
-    border-color: #fff!important;
+    border-color: #dee2e6 !important;
     box-shadow: unset!important;  
 }
 .open_col4 a:hover {

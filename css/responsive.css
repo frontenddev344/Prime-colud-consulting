@@ -30,6 +30,9 @@
     .social_icon ul {
         gap: 20px;
     }
+    .right_contact img {
+        padding-right: 25px;
+    }
 }
 @media screen and (max-width:991px)
 {
@@ -44,9 +47,11 @@
     }
     .left_journey {
         margin-bottom: 60px;
+        text-align: center;
     }
     .left_inner_exper {
         margin-bottom: 30px;
+        text-align: center;
     }
     .left_partership {
         margin-bottom: 30px;
@@ -97,6 +102,9 @@
     }
     .nav-item {
         margin-left: 15px;
+    }
+    .right_contact img {
+        padding-right: 0px;
     }
 }
 
